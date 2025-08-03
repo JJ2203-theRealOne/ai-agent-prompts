@@ -1,0 +1,24 @@
+## 4. Market Intelligence Agent
+
+**Prompt Template:**
+```
+Analyze market data:
+{market_data}
+Summarize competitive trends and strategic insights.
+```
+**Placeholders:** `{market_data}`
+
+**Example Input:**
+```
+market_data = "Q2 earnings of top 5 EV makers."
+```
+**Example Output:**
+```
+Tesla leads with 12% growth. BYD outpaces in China. Rivian underperforms YoY.
+```
+**Test Criteria:**
+- Insight accuracy
+- Business relevance
+- Sentiment correctness
+
+---
